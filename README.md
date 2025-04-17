@@ -1,4 +1,4 @@
-# 🎧 Whisper Video Transcriber
+# 🎧 Video Transcriber (Window.ver)
 
 Whisper Video Transcriber는 `.mp4` 형식의 영상에서 음성을 추출하고, 이를 텍스트로 변환해주는 Python 기반 프로그램입니다.  
 강의 영상, 설명 영상 등을 텍스트화하여 복습이나 요약에 활용할 수 있습니다.
