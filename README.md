@@ -32,7 +32,7 @@ Whisper Video Transcriber는 `.mp4` 형식의 영상에서 음성을 추출하�
 ```bash
 # ffmpeg 설치
 choco install ffmpeg
-
+```
 # ffmpeg 환경 변수 등록 방법
 # 1. Windows 검색창에 "환경 변수" 입력 → 시스템 환경 변수 편집 클릭
 # 2. "환경 변수(N)" 버튼 클릭
