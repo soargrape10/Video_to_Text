@@ -27,9 +27,16 @@ Whisper Video Transcriber는 `.mp4` 형식의 영상에서 음성을 추출하�
 
 - [VSCode 공식 웹사이트](https://code.visualstudio.com/)에서 설치합니다.
 
-### 3. ffmpeg 설치
-
-- Windows 터미널(명령 프롬프트 또는 PowerShell)을 열고 다음 명령어를 입력합니다:
+### 3. ffmpeg 설치 및 환경 변수 등록
 
 ```bash
+# ffmpeg 설치
 choco install ffmpeg
+
+# ffmpeg 환경 변수 등록 방법
+# 1. Windows 검색창에 "환경 변수" 입력 → 시스템 환경 변수 편집 클릭
+# 2. "환경 변수(N)" 버튼 클릭
+# 3. 시스템 변수 목록에서 Path 선택 후 편집
+# 4. "새로 만들기" 클릭 후 다음 경로 추가:
+#    C:\ProgramData\chocolatey\bin
+# 5. 모두 저장 후, 컴퓨터를 재부팅하거나 VSCode를 재시작합니다.
