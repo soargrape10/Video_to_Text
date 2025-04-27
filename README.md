@@ -35,10 +35,20 @@ choco install ffmpeg
 ```
 ---
 
-## ffmpeg 환경 변수 등록 방법
+## 4. ffmpeg 환경 변수 등록 방법
 - Windows 검색창에 "환경 변수" 입력 → 시스템 환경 변수 편집 클릭
 - "환경 변수(N)" 버튼 클릭
 - 시스템 변수 목록에서 Path 선택 후 편집
 - "새로 만들기" 클릭 후 다음 경로 추가:
+  ```bash
     C:\ProgramData\chocolatey\bin
+  ```
 - 모두 저장 후, 컴퓨터를 재부팅하거나 VSCode를 재시작합니다.
+---
+
+## 5. 필수 Python 라이브러리 설치
+- 터미널(또는 VSCode 터미널)에서 다음 명령어를 입력해 필요한 라이브러리를 설치합니다:
+
+  ```bash
+  pip install openai-whisper requests
+  ```
