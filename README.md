@@ -52,3 +52,4 @@ choco install ffmpeg
   ```bash
   pip install openai-whisper requests
   ```
+## 6. 🔥 실행하면 끝!
