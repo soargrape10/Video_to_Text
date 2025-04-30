@@ -3,7 +3,7 @@ import requests
 import os
 
 # 저장 경로 설정
-save_dir = r"C:\Users\ghkdw\Desktop\vid to txt"
+save_dir = r"C:\Users\ghkdw\Desktop\vid to txt"  //본인 저장 경로 설정하세요
 os.makedirs(save_dir, exist_ok=True)
 
 # 기본 파일 이름
@@ -23,7 +23,7 @@ def get_unique_filename(base_name, extension, directory):
         count += 1
 
 # 1. 영상 다운로드
-video_url = "https://cau-cms-object.cdn.gov-ntruss.com/contents_new/cau1000001/67f0a600109f0/contents/media_files/mobile/ssmovie.mp4"
+video_url = "여기에 .mp4 링크를 가져오세요"
 video_path = get_unique_filename(base_video_name, video_ext, save_dir)
 print("🔽 영상 다운로드 중...")
 response = requests.get(video_url, stream=True)
